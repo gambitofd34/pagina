@@ -1,0 +1,25 @@
+*{
+    padding: 0px;
+    margin: 0px;
+  }
+  html, body {
+    background: linear-gradient(#fff, #666870);
+height: 100%;  
+}
+  .boton{
+    margin-right: 10px;
+    /* para agregar un pequeño espacio entre los botones de Login y registro*/
+  }
+
+ img{
+    margin-left: 20px;;
+ }
+ .registro {
+    text-align: center;
+ }
+ #login{
+    place-content: center;
+    display: grid;
+  
+  
+ }
