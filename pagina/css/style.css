@@ -6,6 +6,10 @@
    background: linear-gradient(#fff, #666870);
 height: 100%;  
 }
+.image{
+   height: 300px;
+   width: 400px;
+}
  .boton{
    margin-right: 10px;
    /* para agregar un pequeño espacio entre los botones de Login y registro*/
