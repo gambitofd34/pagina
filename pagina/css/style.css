@@ -1,25 +1,45 @@
 *{
-    padding: 0px;
-    margin: 0px;
-  }
-  html, body {
-    background: linear-gradient(#fff, #666870);
+   padding: 0px;
+   margin: 0px;
+ }
+ html, body {
+   background: linear-gradient(#fff, #666870);
 height: 100%;  
 }
-  .boton{
-    margin-right: 10px;
-    /* para agregar un pequeño espacio entre los botones de Login y registro*/
-  }
+ .boton{
+   margin-right: 10px;
+   /* para agregar un pequeño espacio entre los botones de Login y registro*/
+ }
 
- img{
-    margin-left: 20px;;
- }
- .registro {
-    text-align: center;
- }
- #login{
-    place-content: center;
-    display: grid;
-  
-  
- }
+img{
+   margin-left: 20px;;
+}
+.registro {
+   text-align: center;
+}
+#login{
+   place-content: center;
+   display: grid;
+ 
+}
+header > hgroup{
+  text-align : center ;
+}
+/**/
+.login-with-facebook {
+ display: inline-block;
+ position: relative;
+}
+
+.login-with-facebook img {
+ position: absolute;
+ top: 50%;
+ left: 0;
+ transform: translateY(-50%);
+ width: 20px; /* ajusta el tamaño del logo */
+}
+
+.login-with-facebook span {
+ display: inline-block;
+ margin-left: 30px; /* agrega un poco de espacio entre el logo y el texto */
+}
