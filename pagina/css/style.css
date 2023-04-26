@@ -1,82 +1,108 @@
-.contenedor { /* Seleccionamos todos los elementos dentro del contenedor */
-   /* Establecemos que el ancho del contenedor sea el 90% del ancho de su contenedor padre */
-   width: 90%;
-   /* Establecemos que el ancho máximo del contenedor sea de 1400px */
-   max-width: 1400px;
-   /* Centramos el contenedor horizontalmente dentro de su contenedor padre */
-   margin: auto;
-   /* Ocultamos cualquier contenido que sobresalga del ancho del contenedor */
-   overflow: hidden;
-}
+/* Fuentes. */
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English:ital@0;1&display=swap');
 
-* { /* Establecemos que todos los elementos de la página no tengan margen y relleno */
+/* Ajustes Generales. */
+* {
+   /* Establecemos que todos los elementos de la página no tengan margen y relleno */
    margin: 0;
    padding: 0;
    /* Establecemos que el ancho y alto de los elementos incluyan tanto el contenido como el relleno y el borde del elemento */
    box-sizing: border-box;
 }
 
-nav {
+body,
+html {
+   width: 100%;
+}
+
+
+/* Barra de Navegación. */
+
+.nav {
    /* Establece el ancho de la barra de navegación en un 100% de la pantalla */
    width: 100%;
    /* Establece la altura de la barra de navegación en 80 píxeles */
    height: 80px;
    /* Establece el color de fondo de la barra de navegación en blanco */
-   background:#fff;
+   background: #fff;
    /* Establece una sombra en la barra de navegación */
-   box-shadow: 1px 1px 10px 0 rgba(0,0,0,.2);
+   box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
    /* Establece la posición fija de la barra de navegación en la parte superior de la página */
    position: fixed;
    top: 0;
    /* Establece el índice de apilamiento de la barra de navegación */
-   z-index: 100;
- }
- /* Este código define una clase llamada ".nav" que se aplicará a un elemento HTML, por ejemplo, un elemento de navegación */
+   z-index: 10;
 
-.nav {
    /* Establece el valor de la propiedad "display" como "flex" para hacer que los elementos internos se ajusten de manera flexible */
    display: flex;
-   /* Establece la altura de la barra de navegación en 80 píxeles */
-   height: 80px;
-   /* Establece el ancho de la barra de navegación en un 100% de la pantalla */
-   width: 100%;
+
    /* Establece la alineación vertical del contenido en el centro */
-   align-items: center; 
+   align-items: center;
+   justify-content: start;
 
 }
 
-.enlaces-header { /* Estilo para los enlaces del encabezado */
-   /* Establece el peso de la fuente en 300 (ligeramente delgado) */
-   font-weight: 300;
-   /* Centra horizontalmente el contenido del elemento */
-   margin: auto;
-  
-}
-
-
-.nav .enlases-header a { /* Seleccionamos todos los elementos 'a' que estén dentro de la clase '.enlases-header' */
-   color: rgb(73, 69, 69);
-   margin-right: 10px; /* Establece un margen derecho de 20 píxeles entre los elementos a */
-   text-decoration: none; /* Elimina el subrayado del texto */
-   font-size: 18px; /* Establece el tamaño de fuente del texto a 18 píxeles */
-   font-weight: 300; /* Establece el grosor de la fuente a 300 (delgado) */
-   margin-left: 20px;
-   padding: 12px;
- 
-}
-
-.logo-menu { 
-    /* Seleccionamos todas las imágenes dentro del contenedor */
+.logo-menu {
+   /* Seleccionamos todas las imágenes dentro del contenedor */
    /* Establecemos que el ancho de las imágenes sea de 50 píxeles */
    width: 50px;
    /* Establecemos que la altura de las imágenes sea de 50 píxeles */
    height: 50px;
    /* Este estilo hace que la imagen flote hacia la izquierda del contenedor y tenga un margen derecho de 10 píxeles */
-   float: left;
-   margin-left: 10px;
    margin: 10px;
-   }
-   .imagenes{
-      float: right;
-  margin: 0 0 10px 10px;
-   }
+   margin-right: 50%;
+}
+
+.enlaces-header {
+   display: flex;
+   width: 100%;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.enlaces-header a {
+   /* Seleccionamos todos los elementos 'a' que estén dentro de la clase '.enlases-header' */
+   color: rgb(73, 69, 69);
+
+   /* Establece un margen derecho de 20 píxeles entre los elementos a */
+   text-decoration: none;
+   /* Elimina el subrayado del texto */
+   font-size: 18px;
+   /* Establece el tamaño de fuente del texto a 18 píxeles */
+   font-weight: 300;
+
+   line-height: 20px;
+}
+
+
+/* Cabecera. */
+
+.header {
+   margin-top: 80px;
+}
+
+.header>h1 {
+   text-align: center;
+   font-size: 5rem;
+   padding-top: 2rem;
+   font-family: 'IM Fell English', serif;
+
+}
+
+/* Contenido del Documento. */
+.content {
+   margin: 100px;
+}
+
+article {
+   clear: both;
+}
+
+article img {
+   float: left;
+}
+
+.imagenes {
+
+   margin: 0 0 10px 10px;
+}
