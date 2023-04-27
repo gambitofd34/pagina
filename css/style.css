@@ -81,11 +81,11 @@ html {
    padding-top: 2rem;
    font-family: 'IM Fell English', serif;
 }
+.header> h2{
+   text-align: center;
+}
 
 /* Contenido del Documento. */
-.content {
-   margin: 100px;
-}
 
 article {
    clear: both;
@@ -97,4 +97,18 @@ article img {
 
 .imagenes {
    margin: 0 0 10px 10px;
+}
+.text{
+   padding-right: 500px;
+   
+  
+}
+#ambur{
+   padding-top: 150px;
+}
+.pollo-pizza{
+   height:250px;
+   width: 400px;
+   margin-right: 20px;
+   margin-bottom: 50px;
 }
