@@ -15,7 +15,6 @@ html {
    width: 100%;
 }
 
-
 /* Barra de Navegación. */
 
 .nav {
@@ -32,10 +31,8 @@ html {
    top: 0;
    /* Establece el índice de apilamiento de la barra de navegación */
    z-index: 10;
-
    /* Establece el valor de la propiedad "display" como "flex" para hacer que los elementos internos se ajusten de manera flexible */
    display: flex;
-
    /* Establece la alineación vertical del contenido en el centro */
    align-items: center;
    justify-content: start;
@@ -63,17 +60,14 @@ html {
 .enlaces-header a {
    /* Seleccionamos todos los elementos 'a' que estén dentro de la clase '.enlases-header' */
    color: rgb(73, 69, 69);
-
    /* Establece un margen derecho de 20 píxeles entre los elementos a */
    text-decoration: none;
    /* Elimina el subrayado del texto */
    font-size: 18px;
    /* Establece el tamaño de fuente del texto a 18 píxeles */
    font-weight: 300;
-
    line-height: 20px;
 }
-
 
 /* Cabecera. */
 
@@ -86,7 +80,6 @@ html {
    font-size: 5rem;
    padding-top: 2rem;
    font-family: 'IM Fell English', serif;
-
 }
 
 /* Contenido del Documento. */
@@ -103,6 +96,5 @@ article img {
 }
 
 .imagenes {
-
    margin: 0 0 10px 10px;
 }
