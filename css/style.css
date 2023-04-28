@@ -93,6 +93,7 @@ article {
 
 article img {
    float: left;
+  
 }
 
 .imagenes {
@@ -101,7 +102,6 @@ article img {
 .text{
    padding-right: 500px;
    
-  
 }
 #ambur{
    padding-top: 150px;
@@ -110,5 +110,9 @@ article img {
    height:250px;
    width: 400px;
    margin-right: 20px;
+  
    margin-bottom: 50px;
+}
+main{
+   margin-bottom: 100%;
 }
